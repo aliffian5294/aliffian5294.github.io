@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">My Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Profile Picture">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Mocha</span></h1>
+            <p class="subtitle">I'm a <span class="typed-text"></span></p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mochaliffian/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a Professional Barista with a deep passion for crafting exceptional coffee experiences. With years of expertise in specialty coffee, I've mastered the art of brewing techniques, latte art, and coffee bean selection. My journey in the coffee industry has taught me the perfect balance of precision and creativity.</p>
+                <p>Beyond coffee, I'm also a developer focused on creating elegant web solutions. I bring the same attention to detail and dedication to excellence from my barista work into my development projects, combining clean code with thoughtful design to build seamless digital experiences.</p>
+                <p>As both a barista and developer, I believe in the power of craftsmanship and continuous learning, whether it's perfecting a pour-over or optimizing code efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Expertise</h2>
+        <div class="skills-content">
+            <div class="skill-card">
+                <i class="fas fa-mug-hot"></i>
+                <h3>Coffee Craft</h3>
+                <p>Brewing • Latte Art • Bean Selection</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Development</h3>
+                <p>HTML • CSS • JavaScript • React</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Backend</h3>
+                <p>Node.js • Python • SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Selected Work</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                <h3>Modern Web App</h3>
+                <p>React • Node.js • MongoDB</p>
+                <div class="project-links">
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                <h3>E-Commerce Platform</h3>
+                <p>MERN Stack • Stripe • AWS</p>
+                <div class="project-links">
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mocha Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
